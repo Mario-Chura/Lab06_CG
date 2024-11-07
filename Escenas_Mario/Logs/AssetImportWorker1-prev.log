@@ -15,7 +15,7 @@ C:/Users/Franco/Downloads/Lab06_CG/Escenas_Mario
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-63516
+63672
 Successfully changed project path to: C:/Users/Franco/Downloads/Lab06_CG/Escenas_Mario
 C:/Users/Franco/Downloads/Lab06_CG/Escenas_Mario
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,11 +49,11 @@ C:/Users/Franco/Downloads/Lab06_CG/Escenas_Mario
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [16420] Host "[IP] 192.168.1.106 [Port] 0 [Flags] 2 [Guid] 1142344545 [EditorId] 1142344545 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-RNBIKF8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [4812] Host "[IP] 192.168.1.106 [Port] 0 [Flags] 2 [Guid] 3913254211 [EditorId] 3913254211 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-RNBIKF8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [16420] Host "[IP] 192.168.1.106 [Port] 0 [Flags] 2 [Guid] 1142344545 [EditorId] 1142344545 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-RNBIKF8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [4812] Host "[IP] 192.168.1.106 [Port] 0 [Flags] 2 [Guid] 3913254211 [EditorId] 3913254211 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-RNBIKF8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Library Redirect Path: Library/Refreshing native plugins compatible for Editor in 7.04 ms, found 3 plugins.
+Library Redirect Path: Library/Refreshing native plugins compatible for Editor in 6.77 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2023.1.4f1 (611a2ee54063)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2023.1.4f1/Editor/Data/Resources/UnitySubsystems
@@ -69,7 +69,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2023.1.4f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2023.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2023.1.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56700
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56580
 Begin MonoManager ReloadAssembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
@@ -83,41 +83,41 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.1.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003682 seconds.
-- Loaded All Assemblies, in  0.465 seconds
+Registered in 0.003539 seconds.
+- Loaded All Assemblies, in  0.498 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-- Finished resetting the current domain, in  0.399 seconds
-Domain Reload Profiling: 861ms
-	BeginReloadAssembly (147ms)
+- Finished resetting the current domain, in  0.404 seconds
+Domain Reload Profiling: 900ms
+	BeginReloadAssembly (159ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (44ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (58ms)
-	LoadAllAssembliesAndSetupDomain (198ms)
-		LoadAssemblies (145ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (64ms)
+	LoadAllAssembliesAndSetupDomain (206ms)
+		LoadAssemblies (156ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (193ms)
-			TypeCache.Refresh (191ms)
-				TypeCache.ScanAssembly (176ms)
+		AnalyzeDomain (200ms)
+			TypeCache.Refresh (199ms)
+				TypeCache.ScanAssembly (182ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (399ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (404ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (340ms)
+		SetupLoadedEditorAssemblies (343ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (12ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (9ms)
-			ProcessInitializeOnLoadAttributes (240ms)
-			ProcessInitializeOnLoadMethodAttributes (71ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (10ms)
+			ProcessInitializeOnLoadAttributes (241ms)
+			ProcessInitializeOnLoadMethodAttributes (74ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -140,50 +140,50 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 Symbol file LoadedFromMemory doesn't match image C:\Users\Franco\Downloads\Lab06_CG\Escenas_Mario\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Franco\Downloads\Lab06_CG\Escenas_Mario\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  2.657 seconds
-Refreshing native plugins compatible for Editor in 1.99 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.164 seconds
+Refreshing native plugins compatible for Editor in 2.11 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.828 seconds
-Domain Reload Profiling: 3471ms
-	BeginReloadAssembly (518ms)
+- Finished resetting the current domain, in  0.835 seconds
+Domain Reload Profiling: 1996ms
+	BeginReloadAssembly (384ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
+		DisableScriptedObjects (10ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (38ms)
-	RebuildCommonClasses (211ms)
-	RebuildNativeTypeToScriptingClass (80ms)
-	initialDomainReloadingComplete (226ms)
-	LoadAllAssembliesAndSetupDomain (1607ms)
-		LoadAssemblies (1138ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (56ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (656ms)
+		LoadAssemblies (359ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (718ms)
-			TypeCache.Refresh (694ms)
-				TypeCache.ScanAssembly (671ms)
-			ScanForSourceGeneratedMonoScriptInfo (17ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (829ms)
+		AnalyzeDomain (418ms)
+			TypeCache.Refresh (397ms)
+				TypeCache.ScanAssembly (382ms)
+			ScanForSourceGeneratedMonoScriptInfo (16ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (836ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (584ms)
+		SetupLoadedEditorAssemblies (568ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (90ms)
-			ProcessInitializeOnLoadAttributes (451ms)
-			ProcessInitializeOnLoadMethodAttributes (27ms)
-			AfterProcessingInitializeOnLoad (5ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (97ms)
+			ProcessInitializeOnLoadAttributes (425ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 3.73 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.13 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3116 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (52.8 KB). Loaded Objects now: 3670.
+Unloading 31 unused Assets / (53.0 KB). Loaded Objects now: 3670.
 Memory consumption went from 132.5 MB to 132.5 MB.
-Total: 8.051500 ms (FindLiveObjects: 0.734700 ms CreateObjectMapping: 0.409700 ms MarkObjects: 6.726100 ms  DeleteObjects: 0.179300 ms)
+Total: 5.289100 ms (FindLiveObjects: 0.269100 ms CreateObjectMapping: 0.400000 ms MarkObjects: 4.469700 ms  DeleteObjects: 0.149200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
@@ -199,29 +199,9 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 508071.831084 seconds.
-  path: Assets/Objetos/Planta
-  artifactKey: Guid(f5ac1185751c30a439934fa9b4901993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objetos/Planta using Guid(f5ac1185751c30a439934fa9b4901993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b91784c4ebab2444f010047e74e8a5c6') in 0.003182 seconds
+  Time since last request: 509868.245447 seconds.
+  path: Assets/Objetos/Planta/Materials
+  artifactKey: Guid(23d2b2d3e8c11e74e83b8e8b79123653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objetos/Planta/Materials using Guid(23d2b2d3e8c11e74e83b8e8b79123653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4553cd953461f906b6a2be7f871cf0a2') in 0.003895 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.864178 seconds.
-  path: Assets/Objetos/Planta/eb_house_plant_01.fbx
-  artifactKey: Guid(a6acbf429897cdf42b01934a70ca877a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objetos/Planta/eb_house_plant_01.fbx using Guid(a6acbf429897cdf42b01934a70ca877a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ab90a3440cb1e7137df9d1aa0f0afd9') in 0.200799 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Objetos/Planta/eb_house_plant_01_ren_01.jpg
-  artifactKey: Guid(400f607775520584abb6a9d212603270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objetos/Planta/eb_house_plant_01_ren_01.jpg using Guid(400f607775520584abb6a9d212603270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a404c4a63cecf0be268247b1c9809880') in 0.017035 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
