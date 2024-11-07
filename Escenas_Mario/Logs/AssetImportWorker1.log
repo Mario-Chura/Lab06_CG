@@ -667,3 +667,31 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2362.108193 seconds.
+  path: Assets/Objetos/Reflextor/Reflex Sight dae.dae
+  artifactKey: Guid(a1772aa0e58383a47af256b6b6272ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objetos/Reflextor/Reflex Sight dae.dae using Guid(a1772aa0e58383a47af256b6b6272ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '079b38bf65fc5e00cb9e25d693278326') in 0.266182 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 82
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Objetos/Reflextor/Tex.png
+  artifactKey: Guid(ee0c521d08a1b984fa25ff1b00b5f24f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objetos/Reflextor/Tex.png using Guid(ee0c521d08a1b984fa25ff1b00b5f24f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36ce18a40aa798cfc5048d7420199213') in 0.019027 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Objetos/Reflextor/Reflex Sight fbx.fbx
+  artifactKey: Guid(ba6076cfa23e53e42b932379866c4dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objetos/Reflextor/Reflex Sight fbx.fbx using Guid(ba6076cfa23e53e42b932379866c4dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12f9021f68818af76aaec4c5a4f0a191') in 0.129591 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 82
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
